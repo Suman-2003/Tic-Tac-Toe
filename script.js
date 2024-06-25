@@ -15,7 +15,7 @@ const winConditions = [
     [2,4,6]
 ];
 
-const WinSound = new Audio('Sounds/WinSound.mp3')
+const WinSound = new Audio('Sound/WinSound.mp3')
 
 
 cellArray.forEach((cell) => {
