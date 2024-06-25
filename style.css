@@ -20,7 +20,7 @@ body{
     color: #faedcd;
     font-size: 45px;
     margin: 70px 0 20px;
-    font-family: "Permanent Marker",cursive;
+    font-family: "Permanent Marker";
 }
 .container{
     display: flex;
@@ -70,7 +70,7 @@ body{
     font-size: 50px;
     margin-top: 20px;
     font-weight: 500;
-    font-family: "Permanent Marker",cursive;
+    font-family: "Permanent Marker";
 }
 
 .hide{
