@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Ubuntu&display=swap');
+html{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    background: #270000c9;
+
+}
+
+#head{
+    color: #faedcd;
+    font-size: 45px;
+    margin: 70px 0 20px;
+    font-family: "Permanent Marker",cursive;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cell{
+     height: 100px;
+     width: 100px;
+     background-color: white;
+    border-radius: 10px;
+    font-size: 60px;
+    cursor: pointer;
+    padding: 15px;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.cell:focus{
+    outline: none;
+}
+#board{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 315px;
+    height: 315px;
+}
+
+
+#btn{
+    width: 150px;
+    height: 70  ;
+    border: none;
+    margin-top: 50px;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 8px;
+    background-color: #faedcd;
+    color: black;
+    cursor: pointer;
+}
+
+#statusText{
+    color: #faedcd;
+    font-size: 50px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-family: "Permanent Marker",cursive;
+}
+
+.hide{
+    display: none;
+}
