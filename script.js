@@ -48,7 +48,7 @@ function checkWinner(){
             gameFinished=true
         }
     }
-    if (!cellArray.some(cell => cell.innerText === "")) {
+    if (!gameFinished && !cellArray.some(cell => cell.innerText === "")) {
         statusText.innerText = "It's a tie!";
         statusText.classList.remove("hide");
         gameFinished = true;
